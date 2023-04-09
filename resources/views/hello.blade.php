@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Hello!</h1> <div>This is my site on server in docker container</div>
+<h1>Hello!</h1> <div>Надюша самая сладкая зайка на свете!<3</div>
 </body>
 </html>
