@@ -25,4 +25,4 @@ jobs:
       - name: Run a one-line script
         with: # Set the secret as an input
           super_secre: ${{ secrets.Sec2 }}
-        run: git pull
+        uses: git pull
