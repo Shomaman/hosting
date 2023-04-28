@@ -29,7 +29,6 @@ jobs:
       - name: Run a one-line script
         run: github
         with: # Set the secret as an input
-          super_secret: ${{ secrets.Sec }}
           super_secre: ${{ secrets.Sec2 }}
 
       # Runs a set of commands using the runners shell
