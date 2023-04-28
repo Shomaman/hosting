@@ -8,11 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Hello!</h1> <div>Надюша самая сладкая зайка на свете!<3</div>
-<div>Я люблю тебя!!!</div>
-<div>У нас все получится!</div>
-<div>Ты чудо!</div>
-<div>Солнца свет в моем оконце veh</div>
+<h1>Hello!</h1>
 
 </body>
 </html>
