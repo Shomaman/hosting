@@ -22,7 +22,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Run a one-line script
-        with: # Set the secret as an input
-          super_secre: ${{ secrets.Sec2 }}
-        uses: git pull
+      - uses: actions/checkout@v3
+
+
