@@ -16,4 +16,4 @@ jobs:
       - name: Adding Known Hosts
         run: ssh-keyscan -H 80.78.240.106 >> ~/.ssh/known_hosts
       - name: Deploy with rsync
-        run: rsync -avz ../ root@80.78.240.106/var/www/laracicd/
+        run: rsync -avz ../ root@80.78.240.106:/var/www/laracicd/
