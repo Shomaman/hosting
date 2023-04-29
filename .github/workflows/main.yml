@@ -16,4 +16,4 @@ jobs:
       - name: Adding Known Hosts
         run: ssh-keyscan -H 80.78.240.106 >> ~/.ssh/known_hosts
       - name: Deploy with rsync
-        run: rsync -avz ./dist/ root@$:80.78.240.106/home/
+        run: rsync -avz ./dist/ root@80.78.240.106/home/
